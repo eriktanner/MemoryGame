@@ -1,0 +1,19 @@
+#game {
+  display: grid;
+  grid-template-columns: repeat(5, 15%);
+  grid-template-rows: repeat(auto, 200px);
+  grid-gap: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.hidden {
+  display: none;
+}
